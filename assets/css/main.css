@@ -2025,6 +2025,7 @@ input, select, textarea {
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
+			background-color: #7e1e9c !important;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -2032,6 +2033,7 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+			background-color: #7e1e9c !important;
 		}
 
 		.icon:before {

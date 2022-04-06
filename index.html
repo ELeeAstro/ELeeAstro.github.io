@@ -72,14 +72,14 @@
 									<h3>My Research</h3>
 									<p>(In a nutshell)</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code">Exoplanet atmospheric dynamics</li>
-										<li class="icon solid fa-cubes">Atmospheric radiative-transfer</li>
-										<li class="icon solid fa-users">3D GCM modelling</li>
-										<li class="icon solid fa-book">Cloud particle formation</li>
-										<li class="icon solid fa-coffee">3D radiative-transfer with MCRT</li>
-										<li class="icon solid fa-bolt">Kinetic & equilibirum chemistry</li>
-										<li class="icon solid fa-bolt">Gas and cloud opacities</li>
-										<li class="icon solid fa-users">HPC & GPU computing solutions</li>
+										<li class="icon solid fa-thermometer-full">Exoplanet atmospheric dynamics</li>
+										<li class="icon solid fa-bolt">Atmospheric radiative-transfer</li>
+										<li class="icon solid fa-globe">3D GCM modelling</li>
+										<li class="icon solid fa-cloud">Cloud particle formation</li>
+										<li class="icon solid fa-random">3D radiative-transfer with MCRT</li>
+										<li class="icon solid fa-beer">Kinetic & equilibirum chemistry</li>
+										<li class="icon solid fa-barcode">Gas and cloud opacities</li>
+										<li class="icon solid fa-microchip">HPC & GPU computing solutions</li>
 									</ul>
 								</div>
 							</section>
@@ -88,36 +88,45 @@
 							<section id="three">
 								<div class="container">
 									<h3>Research Highlights</h3>
-									<p>Information here.</p>
+									<p></p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/map_T_ck_1e-1.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Examining two-stream radiative-transfer techniques for hot Jupiter GCMs using Exo-FMS</h4>
-												<p>In Lee et al. (2020) we investigated three different RT techniques for HJ GCM models using the Exo-FMS GCM model, semi-grey, non-grey picket fence and spectral correlated-k.
-												We found that the picket fence scheme was able to reproduce well the correlated-k model, providing a more realistic and intermediate RT solution between the well used semi-grey and correlated-k approachs.
-											  This flexible method allows more accurate GCMs to be run in the future without extreme added computional expense.</p>
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.2695L/abstract">Lee et al. (2020)</a> we investigated three different RT techniques for HJ GCM models using the Exo-FMS GCM model, semi-grey, non-grey picket fence and spectral correlated-k.
+												We found that the picket fence scheme was able to reproduce well the correlated-k model, providing a more realistic and intermediate RT solution between the well used semi-grey and correlated-k approaches.
+											  This flexible method allows more accurate GCMs to be run in the future without extreme added computational expense.
+											  The two stream methods and opacity packages are available on my <a href="https://github.com/ELeeAstro">GitHub</a> </p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/WD0137B_vert_T_grey.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Understanding brown dwarf atmospheres highly irradiated by white dwarf parent stars</h4>
-												<p>Here.</p>
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220309854L/abstract">Lee et al. (2022)</a> we investigated the properties of three brown dwarf atmospheres that orbit close to their host stars.
+													For this we also used the Exo-FMS GCM model, developing a multi-band opacity scheme as well as using a correlated-k scheme.
+												We found these atmospheres were dominated by the strong UV absorption in the upper atmosphere, giving rise to large low pressure temperature inversions. </p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/meri_slice_a_0_compressed.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Coupling microphysical </h4>
-												<p>I coupled</p>
+												<h4>Coupling microphysical cloud models to GCMs </h4>
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2016A%26A...594A..48L/abstract">Lee et al. (2016)</a> we coupled the microphysical cloud formation model DIHRT, with the 3D HD 189733b RHD model of Dobbs-Dixon.
+												We found that the clouds undergo a day-night evaporation and condensation cycle, with different species condensing and evaporation across the globe of the exoplanet atmosphere.
+											The cloud structure properties also varied greatly as function of latitude, longitude and depth.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/WASP-77Ab_IGRINS_zoom1.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>3D radiative-transfer techniques</h4>
-												<p>Here.</p>
+												<h4>Developing 3D radiative-transfer techniques with MCRT</h4>
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211015640L/abstract">Lee et al. (2022)</a> we upgraded the CMCRT model to use GPU technology, increasing it's runtime by 2-100x.
+												This model is a true 3D RT model, able to accurately produce transmission, emission, albedo spectra and phase curves from GCM output.
+												We also include the ability to perform high-resolution RT modelling, with Doppler and rotational shifting of spectral lines, allowing cross-correlation techniques to be performed with the gCMCRT output.
+											  We also developed an opacity package (optools) that can easily interpolate and mix gas phase species opacities as well as CIA, Rayleigh and cloud particle opacities.
+											  This code is publically available on <a href="https://github.com/ELeeAstro/gCMCRT">GitHub</a>. </p>
 											</div>
 										</article>
 									</div>
@@ -476,7 +485,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Elspeth K. H. Lee. All rights reserved. </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
