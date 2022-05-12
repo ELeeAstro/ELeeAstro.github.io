@@ -1,1 +1,3 @@
-# ELeeAstro.github.io
+# ElspethLee.github.io
+
+Elspeth K.H. Lee's (Elsie Lee's) website
