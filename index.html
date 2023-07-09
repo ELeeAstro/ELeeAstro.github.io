@@ -95,19 +95,33 @@
 										<article>
 											<a href="#" class="image"><img src="images/W39b_map_CH4.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Coupling dynamic chemistry to GCMs </h4>
+												<h4>Coupling dynamic chemistry to hot Jupiter GCMs </h4>
 												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..82T/abstract">Tsai et al. (2022)</a> and <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230209525L/abstract">Lee et al. (2023)</a> 
 													we developed a miniature chemical kinetics scheme `mini-chem' which is highly suitable for coupling to GCM models of exoplanet atmospheres.
-												 We found that the chemical species follow the dynamical patterns present in the atmosphere and are significantly out of chemical equilibrium.</p>
+												 We found that the chemical species follow the dynamical patterns present in the atmosphere and are significantly out of chemical equilibrium.
+												The mini-chem source code is on on <a href="https://github.com/ELeeAstro/mini_chem">GitHub</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/meri_slice_a_0_compressed.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/1250_VMR_optim.gif" alt="" /></a>
+											<div class="inner">
+												<h4>Exploring brown dwarf 3D atmospheric chemistry </h4>
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4477L/abstract">Lee, Tan and Tsai (2023)</a>
+													we used mini-chem to explore the 3D chemistry of brown dwarf atmospheres across a range of effective temperatures, finding that storms in these atmosphere affect the spacial distribution of chemical species, and push them out of equilibrium.
+													At the <a href="https://zenodo.org/record/7806376"> Zenodo</a> repository you can find gifs of our output (like the one on the left) showing this stormy weather response.
+												</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/trans_bmix.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Coupling microphysical cloud models to GCMs </h4>
 												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2016A%26A...594A..48L/abstract">Lee et al. (2016)</a> we coupled the microphysical cloud formation model DIHRT, with the 3D HD 189733b RHD model of Dobbs-Dixon.
 												We found that the clouds undergo a day-night evaporation and condensation cycle, with different species condensing and evaporation across the globe of the exoplanet atmosphere.
-											The cloud structure properties also varied greatly as function of latitude, longitude and depth.</p>
+											  The cloud structure properties also varied greatly as function of latitude, longitude and depth.
+												In <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230702268L/abstract">Lee (2023)</a> I updated this model, mini-cloud, to run more efficiently compared to the previous model, enabling much longer simulations to be performed.
+												In this study, I simulated the atmosphere of the hot Jupiter HAT-P-1b as a testbench of the new model. This model is available on <a href="https://github.com/ELeeAstro/mini_cloud">GitHub</a>
+											</p>
 											</div>
 										</article>
 										<article>
@@ -115,11 +129,11 @@
 											<a href="#" class="image"><img src="images/WASP-77Ab_IGRINS_zoom1.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Developing 3D radiative-transfer techniques with MCRT</h4>
-												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211015640L/abstract">Lee et al. (2022)</a> we upgraded the CMCRT model to use GPU technology, decreasing it's runtime by 2-100x.
+												<p>In <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211015640L/abstract">Lee et al. (2022)</a> we upgraded the CMCRT model to use GPU technology, decreasing its runtime by up to 100x.
 												This model is a true 3D RT model, able to accurately produce transmission, emission, albedo spectra and phase curves from GCM output.
 												We also include the ability to perform high-resolution RT modelling, with Doppler and rotational shifting of spectral lines, allowing cross-correlation techniques to be performed with the gCMCRT output.
 											  We also developed an opacity package (optools) that can easily interpolate and mix gas phase species opacities as well as CIA, Rayleigh and cloud particle opacities.
-											  This code is publically available on <a href="https://github.com/ELeeAstro/gCMCRT">GitHub</a>. </p>
+											  This code is publicly available on <a href="https://github.com/ELeeAstro/gCMCRT">GitHub</a>. </p>
 											</div>
 										</article>
 										<article>
