@@ -1,11 +1,11 @@
-.feature-icons{
-  list-style-type:none;
+.feature-icons {
+  list-style-type: none;
 }
 
-.avatar img{
-  border-radius:100%;
-  display:block;
-  max-width:200px;
+.avatar {
+  border-radius: 100%;
+  display: block;
+  max-width: 200px;
 }
 
 .avatar {
@@ -18,4 +18,15 @@
 
 #header {
   padding: 16px 0;
+}
+
+#header header {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.image {
+  height: 20em;
+  object-fit: scale-down;
 }
