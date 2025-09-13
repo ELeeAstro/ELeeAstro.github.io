@@ -6,10 +6,7 @@
   border-radius: 100%;
   display: block;
   max-width: 200px;
-}
-
-.avatar {
-  float: right;
+  float: left;
 }
 
 #logo {
@@ -26,7 +23,11 @@
   gap: 16px;
 }
 
-.image {
-  height: 20em;
-  object-fit: scale-down;
+#one, #two, #three, #four {
+  scroll-margin-top: 50px;
+}
+
+.centered-image{
+  display: grid;
+  align-content: center;
 }
