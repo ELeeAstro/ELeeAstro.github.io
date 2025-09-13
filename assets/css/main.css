@@ -37,6 +37,43 @@
   scroll-margin-top: 50px;
 }
 
+#one {
+  color: var(--sky)
+
+}
+
+#one .lcars-text-bar {
+  background-color: var(--sky);
+  border-color: var(--sky)
+}
+
+#two {
+  color: var(--ice)
+}
+
+#two .lcars-text-bar {
+  background-color: var(--ice);
+  border-color: var(--ice)
+}
+
+#three{
+  color: var(--african-violet)
+}
+
+#three .lcars-text-bar {
+  background-color: var(--african-violet);
+  border-color: var(--african-violet)
+}
+
+#four, #four a {
+  color: var(--magenta)
+}
+
+#four .lcars-text-bar {
+  background-color: var(--magenta);
+  border-color: var(--magenta)
+}
+
 .centered-image {
   display: grid;
   align-content: center;
