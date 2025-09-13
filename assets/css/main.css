@@ -3,10 +3,17 @@
 }
 
 .avatar {
+  margin-left: 16px;
   border-radius: 100%;
   display: block;
-  max-width: 200px;
-  float: left;
+  max-height: 350px;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+  .avatar {
+    display: none;
+  }
 }
 
 #logo {
@@ -23,11 +30,26 @@
   gap: 16px;
 }
 
-#one, #two, #three, #four {
+#one,
+#two,
+#three,
+#four {
   scroll-margin-top: 50px;
 }
 
-.centered-image{
+.centered-image {
   display: grid;
   align-content: center;
+}
+
+.lcars-with-avatar {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  margin-top: 12px;
+}
+
+.lcars-header {
+  height: 100%;
 }
