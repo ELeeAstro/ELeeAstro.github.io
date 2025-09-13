@@ -53,3 +53,7 @@
 .lcars-header {
   height: 100%;
 }
+
+.contact-list {
+  list-style-type: none;
+}
